@@ -6,3 +6,13 @@ git pull upstream opendev
 git stash
 git pop
 git apply
+
+
+git clone -b "branchName" URL
+git checkout master
+git pull
+git checkout localBranch
+git pull
+git merge master
+git commit -m "msg"
+git push
